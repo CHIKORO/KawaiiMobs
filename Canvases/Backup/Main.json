@@ -1,0 +1,69 @@
+{"children": [
+  {
+    "x": 65,
+    "y": 46,
+    "parameters": [],
+    "=": "com.gmail.visualbukkit.blocks.structures.StructPluginEnable"
+  },
+  {
+    "parameters": [
+      {
+        "expression": {"parameters": [{"value": "&c&lKawaiiMobs &7>> &Fis now enabled"}]},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprString"
+      },
+      {
+        "expression": {"parameters": []},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprConsole"
+      }
+    ],
+    "=": "com.gmail.visualbukkit.blocks.statements.StatSendMessage"
+  },
+  {
+    "x": 62,
+    "y": 134,
+    "parameters": [{"value": "HIGH"}],
+    "=": "com.gmail.visualbukkit.blocks.events.EvtPlayerJoinEvent"
+  },
+  {
+    "parameters": [
+      {},
+      {
+        "expression": {"parameters": [{"value": "https://drive.google.com/uc?export=download&id=12tNXFh3PuBrE89QIZbCVU__JD2RS_Y9K"}]},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprString"
+      }
+    ],
+    "=": "com.gmail.visualbukkit.blocks.statements.StatSetResourcePack"
+  },
+  {
+    "parameters": [
+      {
+        "expression": {"parameters": [{"value": "&c&lKawaiiMobs &7>> &Fis now enabled"}]},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprString"
+      },
+      {
+        "expression": {"parameters": []},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprEventPlayer"
+      }
+    ],
+    "=": "com.gmail.visualbukkit.blocks.statements.StatSendMessage"
+  },
+  {
+    "x": 60,
+    "y": 252,
+    "parameters": [],
+    "=": "com.gmail.visualbukkit.blocks.structures.StructPluginDisable"
+  },
+  {
+    "parameters": [
+      {
+        "expression": {"parameters": [{"value": "&c&lKawaiiMobs &7>> &FWants to Say Goodbye"}]},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprString"
+      },
+      {
+        "expression": {"parameters": []},
+        "=": "com.gmail.visualbukkit.blocks.expressions.ExprConsole"
+      }
+    ],
+    "=": "com.gmail.visualbukkit.blocks.statements.StatSendMessage"
+  }
+]}

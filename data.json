@@ -1,0 +1,9 @@
+{
+  "plugin-description": "KawaiiMobs Make Mobs Cute",
+  "canvases": ["Main"],
+  "plugin-version": "1.0",
+  "plugin-author": "CHIKORO",
+  "plugin-soft-depend": "",
+  "plugin-depend": "",
+  "plugin-name": "KawaiiMobs"
+}

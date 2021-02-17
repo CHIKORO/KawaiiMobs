@@ -1,0 +1,7 @@
+name: KawaiiMobs
+version: 1.0
+main: vb.$kawaiimobs.PluginMain
+author: CHIKORO
+description: KawaiiMobs Make Mobs Cute
+api-version: 1.13
+commands:
